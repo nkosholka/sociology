@@ -15,7 +15,7 @@
     <p></p>
     <p>Шановні респонденти! Дякуємо Вам за приділений нам час. Серед усіх учасників соціологічного опитування буде розіграно цікаві призи-заохочення. </p>
     <h5>Перевірте вказані наприкінці анкети контактні дані, аби в разі виграшу ми змогли контактуватися з Вами!</h5>
-    <form action="https://formspree.io/nkosholka@gmail.com" method="post" >
+    <form action="https://formspree.io/nkosholka@gmail.com" method="POST">
         <ol>
             <li>
             <label>Ваш вік</label>
@@ -88,21 +88,21 @@
             <li>
                 <label>Які торгові марки молокопродуктів ви коли-небудь купували? (Можна обрати кілька варіантів відповіді)</label>
                 <br>
-                <label><input type="checkbox" name="firm1" value="Galychyna"> "Галичина"</label>
+                <label><input type="checkbox" name="tm" value="Galychyna"> "Галичина"</label>
                 <br>
-                <label><input type="checkbox" name="firm2" value="Molokia"> "Молокія"</label>
+                <label><input type="checkbox" name="tm" value="Molokia"> "Молокія"</label>
                 <br>
-                <label><input type="checkbox" name="firm3" value="Radymo"> "РаДиМО"</label>
+                <label><input type="checkbox" name="tm" value="Radymo"> "РаДиМО"</label>
                 <br>
-                <label><input type="checkbox" name="firm4" value="Danon"> "Данон"</label>
+                <label><input type="checkbox" name="tm" value="Danon"> "Данон"</label>
                 <br>
-                <label><input type="checkbox" name="firm5" value="Alma-vita"> "Альма-віта"</label>
+                <label><input type="checkbox" name="tm" value="Alma-vita"> "Альма-віта"</label>
                 <br>
-                <label><input type="checkbox" name="firm6" value="Jivaldis"> "Дживальдіс"</label>
+                <label><input type="checkbox" name="tm" value="Jivaldis"> "Дживальдіс"</label>
                 <br>
-                <label><input type="checkbox" name="firm7" value="TM Ferma"> "ТМ Ферма"</label>
+                <label><input type="checkbox" name="tm" value="TM Ferma"> "ТМ Ферма"</label>
                 <br>
-                <label><input type="checkbox" name="firm8" value="Prostokvashyno"> "Простоквашино"</label>
+                <label><input type="checkbox" name="tm" value="Prostokvashyno"> "Простоквашино"</label>
                 <br>
             </li>
             <li>
@@ -146,25 +146,24 @@
             <li>
                 <label>Яка ціна за 1 л. молока буде для Вас оптимальною?</label>
                  <br>
-                <textarea name="message" rows="1" cols="10" placeholder="1-100 грн"></textarea>
+                <textarea name="message1" rows="1" cols="10" placeholder="1-100 грн"></textarea>
             </li>
              <li>
                 <label>Яка ціна за 1 л. молока буде для Вас зависокою?</label>
                  <br>
-                <textarea name="message" rows="1" cols="10" placeholder="1-100 грн"></textarea>
+                <textarea name="message2" rows="1" cols="10" placeholder="1-100 грн"></textarea>
             </li>
              <li>
                 <label>Яка ціна за 1 л. молока буде для Вас підозріло низькою?</label> <br>
-                <textarea name="message" rows="1" cols="10" placeholder="1-100 грн"></textarea>
+                <textarea name="message3" rows="1" cols="10" placeholder="1-100 грн"></textarea>
             </li>
             <li>
-                <form>Ваше ім'я:<br><input type="text" name="firstname"><br>
+                Ваше ім'я:<br><input type="text" name="firstname"><br>
                 Номер телефону (Прохання зазначати в форматі (0ХХ)ХХ-ХХ-ХХХ):<br><input type="text" name="phonenumber">
-                </form> 
             </li>
             <li>
                 <label>Ваша електронна адреса</label>
-                <textarea name="mail" rows="1" cols="35" placeholder="Your e-mail adress"></textarea>
+                <input type="text" name="mail" placeholder="Your e-mail adress">
             </li>
         </ol>
         <p>Дякуємо, що погодилися взяти участь у нашому опитуванні!</p>
