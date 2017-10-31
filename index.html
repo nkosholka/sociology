@@ -141,25 +141,25 @@
                 <br>
                 <label><input type="radio" name="place" value="market"> На базарі</label>
                 <br>
-                <label><input type="radio" name="place" value="no difference"> Мені немає різниці де купувати</label>
+                <label><input type="radio" name="place" value="no difference">Мені немає різниці де купувати</label>
             </li>
             <li>
                 <label>Яка ціна за 1 л. молока буде для Вас оптимальною?</label>
                  <br>
-                <textarea name="message1" rows="1" cols="10" placeholder="1-100 грн"></textarea>
+                <input type="text" name="message1" pattern="[0-9]{1,2}" placeholder="1-99 грн">
             </li>
              <li>
                 <label>Яка ціна за 1 л. молока буде для Вас зависокою?</label>
                  <br>
-                <textarea name="message2" rows="1" cols="10" placeholder="1-100 грн"></textarea>
+                <input type="text" name="message2" pattern="[0-9]{1,2}" placeholder="1-99 грн">
             </li>
              <li>
                 <label>Яка ціна за 1 л. молока буде для Вас підозріло низькою?</label> <br>
-                <textarea name="message3" rows="1" cols="10" placeholder="1-100 грн"></textarea>
+                <input type="text" name="message3" pattern="[0-9]{1,2}" placeholder="1-99 грн">
             </li>
             <li>
                 Ваше ім'я:<br><input type="text" name="firstname"><br>
-                Номер телефону (Прохання зазначати в форматі (0ХХ)ХХ-ХХ-ХХХ):<br><input type="text" name="phonenumber">
+                Номер телефону:<br><input type="text" name="phonenumber" pattern="[0-9]{10}" placeholder="0ХХ-ХХХ-ХХ-ХХ">
             </li>
             <li>
                 <label>Ваша електронна адреса</label>
